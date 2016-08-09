@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55cccccc"
+    android:orientation="vertical"
+    tools:context="com.google.lenono.tiaozaoproject.AddressEditActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/address_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地 址 编 辑"
+            android:layout_gravity="center"
+            android:textSize="18sp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/address_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="收件人姓名"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/address_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="收件人电话"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/address_basic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="xx省xx市xx区"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/address_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="详细地址"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#BB2212"
+        android:text="保 存 地 址"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:onClick="clickButton"/>
+
+</LinearLayout>

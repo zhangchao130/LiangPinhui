@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/cart_listview_item_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp" />
+    <TextView
+        android:id="@+id/cart_listview_item_tvname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@id/cart_listview_item_iv"
+        android:layout_marginRight="55dp"
+        android:layout_toRightOf="@id/cart_listview_item_iv" />
+    <TextView
+        android:id="@+id/cart_listview_item_tvinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cart_listview_item_tvname"
+        android:layout_marginRight="55dp"
+        android:layout_toRightOf="@id/cart_listview_item_iv" />
+    <TextView
+        android:id="@+id/cart_listview_item_tvprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="55dp"
+        android:layout_below="@id/cart_listview_item_tvinfo"
+        android:layout_toRightOf="@id/cart_listview_item_iv" />
+    <Button
+        android:id="@+id/cart_listview_item_btn"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cart_listview_item_tvname"
+        android:background="@drawable/cart_button_nord"
+        android:text="支付"
+        android:textColor="#ff0000"
+        android:layout_marginRight="5dp"/>
+
+</RelativeLayout>

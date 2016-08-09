@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/titlelinearlayout_headergridbiew_adapter_iv"
+        android:layout_width="120dp"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/titlelinearlayout_headergridbiew_adapter_name"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="商品名字"
+        android:lines="1"
+        android:ellipsize="end"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/titlelinearlayout_headergridbiew_adapter_name1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="商品名字" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/titlelinearlayout_headergridbiew_adapter_tv_new_price"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="最新价格"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/titlelinearlayout_headergridbiew_adapter_tv_old_price"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:text="以前的价格" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">臻品汇</string>
+    <string name="action_settings">Settings</string>
+    <string name="problem_oneq">Q:什么是售卖套件?如何获取售卖套件?</string>
+    <string name="problem_onea">A:售卖套件包括指引卡片、用于包装待售卖宝贝的包装盒或包装袋、以及打印好的快递单。您只需要点击“立即下单,填写收件地址和联系方式下单,2个工作日内会收到良品汇的确认电话(010-53389115),电话确认后,良品汇会邮寄售卖套件给您,一般2至5个工作日到达。</string>
+    <string name="problem_twoq">Q:如何将宝贝寄给良品汇,邮寄费用谁来出?</string>
+    <string name="problem_twoa">A:收到售卖套件后,您需要使用套件中的包装袋包装待售宝贝,并使用套件中已打印好的快递单叫快递上门寄给良品汇。快递单是已经打印好的到付快递单,因此寄出的费用由良品汇垫付。如选择寄卖方式,则在卖出第一件宝贝打款时扣除20元垫付的邮费;如果选择回收方式,则在回收费用中自动扣除20元垫付的邮费。</string>
+    <string name="problem_thirdq">Q:寄出待售宝贝后,多久能收到反馈?</string>
+    <string name="problem_thirda">A:良品汇在收到您寄出的宝贝后立即发送短信通知您,并在2个工作日内进行鉴定,通过短信通知您哪些宝贝符合售卖标准和报价,您可以在“个人中心-售卖订单”中查看。</string>
+    <string name="problem_fourq">Q:如何选择寄卖或者回收?</string>
+    <string name="problem_foura">A:在收到良品汇鉴定评估完成的通知短信后,可以再"个人中心-售卖订单"中选择"寄卖"或者"卖给良品汇"。注意,待售卖宝贝只能整体选择寄卖或者回收,不允许部分寄卖,部分回收。</string>
+    <string name="problem_fiveq">Q:寄卖的价格如何确定?</string>
+    <string name="problem_fivea">A:良品汇专业的鉴定人员会给出建议售价,通常根据品牌、成色、款式、季节性以及相似商品在良品汇的销售情况确定,如果对于给出的建议售价不满意,您也可以自行调整价格。</string>
+    <string name="problem_sixq">Q:确定寄卖价格后,何时会上架销售?</string>
+    <string name="problem_sixa">A:寄卖价格在确定后,良品汇会对您的宝贝进行专业清理、拍照、信息整理和包装,然后再上架销售,一般需要3-5个工作日。</string>
+    <string name="problem_sevenq">Q:寄卖的周期有多久,到期未卖出怎么办?</string>
+    <string name="problem_sevena">A:良品汇要求的寄卖周期是90天,再次周期内良品汇将尽可能快速的帮您出售您的宝贝。90天内您不能要求取回您的宝贝。如90天内您的宝贝未被卖出,良品汇通过到付的快递将售卖宝贝寄还给您。</string>
+    <string name="problem_nightq">Q:如果我要售卖的宝贝不符合售卖标准怎么办?</string>
+    <string name="problem_nighta">A:建议您认真了解售卖标准,如果您的宝贝不符合标准,可以选择寄还给您或由良品汇处理。选择寄回,良品汇通过到付的快递将售卖宝贝寄还给您;选择由良品汇处理,则良品汇将代您处理给资源再利用机构,良品汇不在此环节获利。</string>
+    <string name="problem_nineq">Q:什么时候可以获得付款?</string>
+    <string name="problem_ninea">A:寄卖的宝贝在背售出后的10天内不被退货,良品汇将在第11天时将扣除佣金的销售所得打入到您下单时绑定的微信钱包中。</string>
+    <string name="problem_date">周一到周六  09:30 - 18:30</string>
+    <string name="dialog_one">无明显穿,洗痕迹,(女装领标，水洗标完整)</string>
+    <string name="dialog_two">无污渍、破损、褪色、起球(包袋、鞋履无变形磨损)</string>
+    <string name="dialog_thrid">纽扣、拉链、五金配饰完整无缺失正常可用</string>
+    <string name="dialog_four">不接受:男装、孕妇装、泳装、运动服、户外服饰、睡衣、皮衣皮草、T恤、打底衫、打底裤、热裤</string>
+    <string name="dialog_five">我知道了</string>
+    <string name="sell_search_hint">搜索列表</string>
+    <array name="array">
+        <item>A.P.C</item>
+        <item>3.1 Phillip Lim</item>
+        <item>ALDO</item>
+        <item>Bailey44</item>
+        <item>CARVEN</item>
+        <item>Celine</item>
+        <item>Daks</item>
+        <item>Dior</item>
+        <item>ECCO</item>
+        <item>Edie Parker</item>
+        <item>Fossil</item>
+        <item>Free People</item>
+        <item>HOGAN</item>
+        <item>Hermes 爱马仕</item>
+        <item>LANCEL</item>
+        <item>Longines 浪琴</item>
+        <item>ISABEL</item>
+        <item>Just Cavalli</item>
+        <item>Kat Maconie</item>
+        <item>KENZO</item>
+        <item>Lancel</item>
+        <item>LONGCHAMP</item>
+        <item>Madden Girl</item>
+        <item>Madewell</item>
+        <item>NINA RICCI</item>
+        <item>Boday</item>
+        <item>CHANEL</item>
+        <item>Nine West 玖熙</item>
+        <item>OMEGA 欧米茄</item>
+        <item>O2nd 奥蔻</item>
+        <item>PACO RABANNE</item>
+        <item>Paul Smith</item>
+        <item>Rolex</item>
+        <item>Rachel Zoe</item>
+        <item>Sandro</item>
+        <item>Schutz</item>
+        <item>TAGHeuer</item>
+        <item>Ted Baker</item>
+        <item>UGG</item>
+        <item>Vera Wang</item>
+        <item>Versus</item>
+        <item>WeekEnd MaxMara 麦丝玛拉</item>
+        <item>Yves Saint Laurent</item>
+        <item>Zac posen</item>
+        <item>Zading Voltaire</item>
+        <item>周大福</item>
+    </array>
+    <string name="sell_text1">寄卖的宝贝被售出后</string>
+    <string name="sell_text2">获取的款项将自动打入已绑定的微信钱包</string>
+    <string name="sell_text3">请绑定微信号</string>
+    <string name="title_sijin1">夏日,你的白T需要搭这样一条丝巾</string>
+    <string name="title_sijin2">白T搭丝巾 优雅又迷人</string>
+    <string name="title_jingdian1">可可小姐的香奈儿</string>
+    <string name="title_jingdian2">流行稍纵即逝 唯有经典永驻</string>
+    <string name="title_discount1">折扣专区</string>
+    <string name="title_discount2">你错过的好物在打折</string>
+    <string name="title_fjingdian1">不可错过的Balenciaga</string>
+    <string name="title_fjingdian2">自信品味 充满法式的典雅时尚</string>
+    <string name="title_coach1">Coach75周年</string>
+    <string name="title_coach2">邂逅纽约城市的自由浪漫</string>
+    <string name="title_peishi1">【美国直邮】多彩浪漫的配饰</string>
+    <string name="title_peishi2">低至3折起</string>
+    <string name="title_tory1">Tory Burch</string>
+    <string name="title_tory2">永恒的,经典的设计元素与现代时尚</string>
+
+
+</resources>

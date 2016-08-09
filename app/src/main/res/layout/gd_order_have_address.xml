@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/address_icon_user"/>
+        <TextView
+            android:id="@+id/gd_order_address_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="用户名"
+            android:textSize="15sp"/>
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/address_icon_mobile"/>
+        <TextView
+            android:id="@+id/gd_order_address_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="电话"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/gd_order_address_basic"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="所在地"
+        android:textColor="#D4D4D4"/>
+    <TextView
+        android:id="@+id/gd_order_address_detail"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="详细地址"
+        android:textColor="#D4D4D4"/>
+
+</LinearLayout>

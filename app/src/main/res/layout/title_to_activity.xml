@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.google.lenono.titletoactivity.TitleToActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/title_to_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#ffffff">
+        <TextView
+            android:id="@+id/title_to_activity_toolbar_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="20dp"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshHeadGridView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ptrDrawable="@drawable/loading_progress_icon"
+        android:layout_marginBottom="10dp" />
+</LinearLayout>

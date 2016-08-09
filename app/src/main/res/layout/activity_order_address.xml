@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55cccccc"
+    tools:context="com.google.lenono.tiaozaoproject.OrderAddressActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/order_address_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"/>
+
+
+    <LinearLayout
+        android:id="@+id/order_address_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="+ 添加收件人地址"
+            android:background="#BB2212"
+            android:textColor="#fff"
+            android:onClick="clickButton"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/order_address_listview"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/order_address_toolbar"
+        android:layout_above="@id/order_address_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"></ListView>
+</RelativeLayout>

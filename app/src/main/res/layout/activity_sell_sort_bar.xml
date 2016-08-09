@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.google.lenono.sellsortbarcommon.SellSortBarActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/sell_sortbar_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="品牌"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <com.google.lenono.sellsortbarcommon.ClearEditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="7dp"
+        android:hint="@string/sell_search_hint"
+        android:singleLine="true"
+        android:textSize="17sp"></com.google.lenono.sellsortbarcommon.ClearEditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/sell_sortbar_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            ></ListView>
+
+        <com.google.lenono.sellsortbarcommon.SellSortBar
+            android:id="@+id/sell_sortbar_sellsorbar"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/sell_sortbar_tv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#ff0000"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

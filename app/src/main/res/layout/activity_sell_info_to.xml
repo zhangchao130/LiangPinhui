@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.lenono.sellinfotoacitivuty.SellInfoToActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="短信验证登录"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="手机号：" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="11"
+        android:inputType="phone"
+        android:maxLength="11">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="40dp"
+        android:text="验证码：" />
+
+    <EditText
+        android:id="@+id/cord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_marginTop="20dp"
+        android:ems="4"
+        android:inputType="phone"
+        android:maxLength="4" />
+
+    <Button
+        android:id="@+id/getcord"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cord"
+        android:layout_alignTop="@+id/cord"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/cord"
+
+        android:text="获取验证码"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/savecord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cord"
+        android:layout_margin="20dp"
+        android:text="验证" />
+
+    <TextView
+        android:id="@+id/now"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/savecord"
+        android:layout_toRightOf="@+id/cord"
+        android:gravity="center_horizontal"
+        android:text="提示信息"
+        android:textColor="#aaaaaa"
+        android:visibility="gone" />
+
+</RelativeLayout>

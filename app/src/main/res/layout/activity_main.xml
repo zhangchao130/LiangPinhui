@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cjj="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <RadioButton
+            android:id="@+id/main_rg_gb_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_rg_button_title"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/main_rg_button_textcolor" />
+
+        <RadioButton
+            android:id="@+id/main_rg_gb_idle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_rg_button_idle"
+            android:gravity="center"
+            android:text="闲置"
+            android:textColor="@color/main_rg_button_textcolor" />
+
+        <RadioButton
+            android:id="@+id/main_rg_gb_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_rg_button_sell"
+            android:gravity="center"
+            android:text="我要售卖"
+            android:textColor="@color/main_rg_button_textcolor" />
+
+        <RadioButton
+            android:id="@+id/main_rg_gb_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_rg_button_cart"
+            android:gravity="center"
+            android:text="购物袋"
+            android:textColor="@color/main_rg_button_textcolor" />
+
+        <RadioButton
+            android:id="@+id/main_rg_gb_sellinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_rg_button_sellinfo"
+            android:gravity="center"
+            android:text="个人中心"
+            android:textColor="@color/main_rg_button_textcolor" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_radiogroup">
+
+    </FrameLayout>
+</RelativeLayout>
